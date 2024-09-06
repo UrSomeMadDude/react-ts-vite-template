@@ -1,5 +1,6 @@
 import React from "react";
+import { AppRouter } from "./routers";
 
 export const App: React.FC = () => {
-	return <div>App is running</div>;
+	return <AppRouter />;
 };
